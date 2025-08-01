@@ -25,9 +25,9 @@ tipos_cobertura = ['cobertura_adicional', 'cobertura_garantizada']  # Lista de t
 
 
 # Directorio base
-base_dir = 'C:/Users/fhuillca/Desktop/Mapas inter-disueltos 2025-1/'
+base_dir = '/Mapas inter-disueltos 2025-1/'
 
-ruta_shp_ccpp_rural = 'C:/Users/fhuillca/Documents/DPRC/Análisis Regulatorio/Checa tu señal/SHP CCPP/ShpCCPPccpp/CiudadesCcpp2023.shp'
+ruta_shp_ccpp_rural = '/CiudadesCcpp2023.shp'
 
 ccpp_rural = gpd.read_file(ruta_shp_ccpp_rural)
 
